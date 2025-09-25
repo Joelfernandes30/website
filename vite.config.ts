@@ -7,7 +7,7 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   // Base path for production
   // For GitHub Pages with custom domain, set "/" so assets load correctly
-  base: mode === "production" ? "techmiyaedtech-new" : "/",
+  base: mode === "production" ? "website" : "/",
   server: {
     host: "::",
     port: 8080,
